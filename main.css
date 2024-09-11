@@ -35,5 +35,29 @@ section .container {
 }
 
 .logo img {
-    width: 32px;
+    height: 24px;
+}
+
+.logo li {
+    display: inline;
+}
+
+section .container {
+    align-items: flex-start;
+}
+
+section {
+    padding: 24px 0;
+}
+
+section h2 {
+    margin-bottom: 16px;
+}
+
+section p {
+    margin-bottom: 8px;
+}
+
+.front-story {
+    margin-right: 32px;
 }
