@@ -4,16 +4,30 @@
     box-sizing: border-box;
 }
 
+header,
+section h2 {
+    font-family: "Bungee", system-ui
+}
+
+body {
+    font-family: "Roboto", system-ui;
+}
+
 header {
     padding: 16px 0;
     background-color: #182C61;
     color: white;
 }
 
+header h1,
+section h2 {
+    font-weight: normal;
+}
+
 header nav li {
     display: inline;
     margin-left: 16px;
-    font-size: 24px;
+    font-size: 12px;
 }
 
 header nav li a {
@@ -40,6 +54,7 @@ section .container {
 
 .logo li {
     display: inline;
+    margin-right: 8px;
 }
 
 section .container {
@@ -52,6 +67,10 @@ section {
 
 section h2 {
     margin-bottom: 16px;
+}
+
+section {
+    color: #182C61;
 }
 
 section p {
